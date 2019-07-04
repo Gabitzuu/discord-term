@@ -1,20 +1,14 @@
 {
-    "name": "discord-term",
+    "name": "b1xord",
     "version": "1.2.3",
-    "description": "Extensible Discord terminal client",
+    "description": "Extensible b1xord terminal client",
     "main": "dist/app.js",
     "scripts": {
         "build": "tsc",
         "start": "npm run build && node dist/app.js",
         "prepublish": "npm run build"
     },
-    "keywords": [
-        "discord",
-        "discord-terminal",
-        "discord-client",
-        "discordjs"
-    ],
-    "author": "CloudRex <cloudrex@outlook.com>",
+    "author": "Gabitzuu <cloudrex@outlook.com>",
     "license": "MIT",
     "dependencies": {
         "@types/blessed": "^0.1.10",

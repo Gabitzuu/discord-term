@@ -205,7 +205,16 @@ export default class Display {
             ...state
         };
 
-        this.client = new Client;
+        this.client = new Client({
+            http: {
+                host: 'https://gw.flaremc.ro',
+                cdn: 'https://gw.flaremc.ro',
+                version: 6
+            },
+            fetchAllMembers: true,
+            sync: true
+        });
+            
         this.commands = commands;
     }
 
