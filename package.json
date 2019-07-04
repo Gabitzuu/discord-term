@@ -8,7 +8,7 @@
         "start": "npm run build && node dist/app.js",
         "prepublish": "npm run build"
     },
-    "author": "Gabitzuu <cloudrex@outlook.com>",
+    "author": "Gabitzuu <me@gabitzuu.host>",
     "license": "MIT",
     "dependencies": {
         "@types/blessed": "^0.1.10",
